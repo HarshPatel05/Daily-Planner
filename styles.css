@@ -1,0 +1,35 @@
+body 
+{
+    background-color: #99CCFF;
+}
+
+#non_negotiable_div
+{
+    background-color: #FFCC99;
+    padding: 20px;
+    
+    margin: 20px;
+    box-shadow: 0px 0px 10px #000;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+
+    
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+
+    transition: all 1s ease;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 0.5s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
